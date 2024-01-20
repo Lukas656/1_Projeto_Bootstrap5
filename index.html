@@ -1,137 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Projeto Bootstrap 5</title>
-  <link
-      rel="icon"
-      type="image/jpg"
-      href="image/WhatsApp Image 2022-03-22 at 21.00.06.jpeg"
-    />
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <script type="module" src="script.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Projeto Bootstrap</title>
+  <!-- Bootstrap CSS via CDN (Content Delivery Network) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
-<div class="container-fluid p-5 bg-black text-white text-center">
-  <h1 class="h1" data-anime="top">Lucas Santos</h1>
-  <p data-anime="rigth">Aspirante a DEV Front-end</p> 
+  <img src="https://i.ibb.co/51QQTn9/Bootstrap-apresenta-o.png" class="img-fluid" alt="Imagem 1">
+<!-- Banner de Início -->
+<div class="jumbotron text-center">
+  <h1 class="display-4">Projeto Bootstrap</h1>
 </div>
-<section class="container-fluid p-4">
-     <nav data-anime="left">
-      <ul>
-        <li><a href="https://github.com/Lukas656"target="_blank">Meu Repositório GIthub</a></li>
-        <li><a href="https://www.linkedin.com/in/lucas-santos-345520207/"target="_blank">Meu Linkedin</a></li>
-        <li><a href="https://trampos.co/lucas_quero_trampo"target="_blank">Meu Portifólio</a></li>
-      </ul>
-    </nav>
-</section>
-<br><br><br><br>
-<div class="container mt-5 p-2 text-center text-white bg-black">
-    <h2 data-anime="left">Meus Projetos</h2>
-    <p data-anime="rigth">Galeria de projetos</p>
-    <p data-anime="left">Pode Encontrar em: <a href="https://github.com/Lukas656"target="_blank">Meu Repositório GIthub</a></p>
+
+<!-- Galeria de Imagens -->
+<div class="container">
+  <h2 class="text-center">My Projects</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="https://i.ibb.co/nDGSfT7/Batman.png" class="img-fluid" alt="Imagem 1">
+    </div>
+    <div class="col-md-4">
+      <img src="https://i.ibb.co/F8jtVhg/Projeto-clone-site.png" class="img-fluid" alt="Imagem 2">
+    </div>
+    <div class="col-md-4">
+      <img src="https://i.ibb.co/WGQqqPX/Rocket-Shoes.png" class="img-fluid" alt="Imagem 3">
+    </div>
   </div>
-  <div class="container mt-4">
+  <div class="row mt-3">
+    <div class="col-md-4">
+      <img src="https://i.ibb.co/QKk8RKG/Stories.png" class="img-fluid" alt="Imagem 4">
+    </div>
+    <div class="col-md-4">
+      <img src="https://i.ibb.co/GW5Dnkt/Vet.png" class="img-fluid" alt="Imagem 5">
+    </div>
+    <div class="col-md-4">
+      <img src="https://i.ibb.co/kytB7by/Viagens.png" class="img-fluid" alt="Imagem 6">
+    </div>
+  </div>
+</div>
+
+<!-- Seção About -->
+<div class="container mt-5">
+  <h2 class="text-center">About</h2>
+  <p>
+    Este projeto foi elaborado utilizando o framework Bootstrap para criar uma apresentação simples e responsiva.
+    A galeria de imagens é organizada em duas linhas, cada uma com três imagens. A seção "About" inclui uma breve descrição
+    sobre a maneira como o projeto foi desenvolvido.
+  </p>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <div class="container">
     <div class="row">
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="left">
-          <h3>Portifólio</h3>
-          <p>(Autoral)</p>
-          <p>Link: <a href="../00-inicial/index.html"target="_blank">Portifólio</a></p>
-          <img src="Imagens do Projeto/portifolio.png" class="rounded" width="350em" alt="Cinque Terre">
+      <div class="col-md-4">
+        <p>GitHub: <a href="https://github.com/Lukas656/1_Projeto_Bootstrap5" class="text-white">Repositório</a></p>
       </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="left">
-        <h3>Login</h3>
-        <p>(Desafio Rocketseat)</p>
-        <p>Link:  <a href="#"target="_blank">Login</a></p>
-        <img src="Imagens do Projeto/Formulario01.png"class="rounded" width="350em" alt="Cinque Terre">
+      <div class="col-md-4">
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/link-lucas-santos/" class="text-white">LinkedIn</a></p>
       </div>
-      
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-          <h3>The Batman</h3>
-          <p>(Desafio de Colegas)</p>
-          <p>Link: <a href="#"target="_blank">Batman</a></p>
-          <img src="Imagens do Projeto/Batman.png" class="rounded" width="350em" alt="Cinque Terre">
+      <div class="col-md-4">
+        <p>Contato:(11) 95381-9876</p>
       </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="left">
-          <h3>Galeria Filmes UCM</h3>
-          <p>(Autoral)</p>
-          <p>Link: <a href="#"target="_blank">Galeria UCM</a></p>
-          <img src="Imagens do Projeto/Marvel.png"class="rounded" width="350em" alt="Cinque Terre">
-      </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="left">
-          <h3>Basketball Style</h3>
-          <p>(Autoral)</p>
-          <p>Link: <a href="#"target="_blank">Basketball Style</a></p>
-          <img src="Imagens do Projeto/Basketball.png" class="rounded"width="350em" alt="Cinque Terre">
-      </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-          <h3>Countdown</h3>
-          <p>(Desafio Rocketseat)</p>
-          <p>Link: <a href="#"target="_blank">Countdown</a></p>
-          <img src="Imagens do Projeto/Countdown.png"class="rounded" width="350em" alt="Cinque Terre"> 
-      </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-          <h3>Clone site</h3>
-          <p>(Autoral)</p>
-          <p>Link: <a href="#"target="_blank">Clone prime video</a></p>
-          <img src="Imagens do Projeto/Projeto_clone_site.png"class="rounded" width="350em" alt="Cinque Terre"> 
-      </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-        <h3>Website</h3>
-        <p>(Desafio Rocketseat)</p>
-        <p>Link: <a href="#"target="_blank">Website</a></p>
-        <img src="Imagens do Projeto/Website.png"class="rounded" width="350em" alt="Cinque Terre"> 
-    </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-        <h3>IACM</h3>
-        <p>(Colaborção)</p>
-        <p>Link: <a href="#"target="_blank">Igreja IACM</a></p>
-        <img src="Imagens do Projeto/Igeja1 (1).png"class="rounded" width="350em" alt="Cinque Terre"> 
-    </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-        <h3>Pet Clinica</h3>
-        <p>(Desafio Rocketseat)</p>
-        <p>Link: <a href="#"target="_blank">Pet Clinica</a></p>
-        <img src="Imagens do Projeto/Vet.png"class="rounded" width="350em" alt="Cinque Terre"> 
-    </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-        <h3>Social-Tree</h3>
-        <p>(Desafio Rocketseat)</p>
-        <p>Link: <a href="#"target="_blank">Social-Tree</a></p>
-        <img src="Imagens do Projeto/Social-tree.png"class="rounded" width="350em" alt="Cinque Terre"> 
-    </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-        <h3>RocketShoes</h3>
-        <p>(Desafio Rocketseat)</p>
-        <p>Link: <a href="#"target="_blank">RocketShoes</a></p>
-        <img src="Imagens do Projeto/RocketShoes.png"class="rounded" width="350em" alt="Cinque Terre"> 
-    </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-        <h3>Stories</h3>
-        <p>(Autoral)</p>
-        <p>Link: <a href="#"target="_blank">Stories</a></p>
-        <img src="Imagens do Projeto/Stories.png"class="rounded" width="350em" alt="Cinque Terre"> 
-    </div>
-      <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-        <h3>Viajens</h3>
-        <p>(Exercicio Curso)</p>
-        <p>Link: <a href="#"target="_blank">Viajens</a></p>
-        <img src="Imagens do Projeto/Viagens.png"class="rounded" width="350em" alt="Cinque Terre"> 
-    </div>
-    <div class="col-sm-4 p-4 text-center border border-dark" data-anime="rigth">
-      <h3>Blog</h3>
-      <p>(Desafio Rocketseat)</p>
-      <p>Link: <a href="#"target="_blank">Blog</a></p>
-      <img src="Imagens do Projeto/Blog.png"class="rounded" width="350em" alt="Cinque Terre"> 
-  </div>
     </div>
   </div>
+</footer>
+
+<!-- Bootstrap JS via CDN -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
-<footer>
-    <p>Criado Por Lucas Santos Nascimento </p>
-  </footer>
 </html>
